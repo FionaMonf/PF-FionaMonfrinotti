@@ -1,0 +1,9 @@
+$destacado: #c6538c;
+header {
+  h1 {
+  }
+  a:hover {
+    color: $destacado !important;
+  }
+}
+@import "../node_modules/bootstrap/scss/bootstrap";
