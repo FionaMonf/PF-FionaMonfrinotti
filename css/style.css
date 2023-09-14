@@ -102,7 +102,7 @@ h1 {
     height: 20rem;
     width: 20rem;
   }
-  .sobreNosotros{
+  .sobreNosotros {
     font-size: 1rem;
   }
 }
@@ -200,4 +200,15 @@ h3 {
   text-align: center;
 }
 
-
+.mapa{
+  text-align: center;
+}
+.mapa img{
+  width: 12rem;
+  height: 7rem;
+  transition: width 1s;
+}
+.mapa img:hover{
+  width: 15rem;
+  height: 9rem;
+}
