@@ -71,6 +71,10 @@ h1 {
   font-family: monospace;
 }
 
+.video {
+  text-align: center;
+}
+
 /*Estilos*/
 .estilos1 {
   font-size: 25px;
@@ -89,20 +93,32 @@ h1 {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .latas {
-    width: 50%;
+    width: 25rem;
   }
   .cervezas img {
     height: 10rem;
+  }
+  .video iframe {
+    height: 20rem;
+    width: 20rem;
+  }
+  .sobreNosotros{
+    font-size: 1rem;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .latas {
-    width: 50%;
+    width: 50rem;
   }
   .cervezas img {
     height: 10rem;
+  }
+
+  .video iframe {
+    height: 20rem;
+    width: 20rem;
   }
 }
 
@@ -184,14 +200,4 @@ h3 {
   text-align: center;
 }
 
-.mapa {
-  display: inline-block;
-  padding: 5px;
-  box-sizing: border-box;
-  float: right;
-}
 
-.mapa img {
-  width: 200px;
-  margin-right: 200px;
-}
