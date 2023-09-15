@@ -1,4 +1,17 @@
 @charset "UTF-8";
+body .mapa {
+  text-align: center;
+}
+body .mapa a img {
+  width: 12rem;
+  height: 7rem;
+  transition: width 1s;
+}
+body .mapa a img:hover {
+  width: 15rem;
+  height: 9rem;
+}
+
 header a:hover {
   color: #c6538c !important;
 }

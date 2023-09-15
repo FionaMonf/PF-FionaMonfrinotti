@@ -1,0 +1,16 @@
+body {
+  .mapa {
+    text-align: center;
+    a {
+      img {
+        width: 12rem;
+        height: 7rem;
+        transition: width 1s;
+      }
+      img:hover {
+        width: 15rem;
+        height: 9rem;
+      }
+    }
+  }
+}

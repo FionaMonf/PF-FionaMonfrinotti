@@ -1,9 +1,9 @@
+@import "../scss/_encontranos.scss";
 $destacado: #c6538c;
 header {
   a:hover {
     color: $destacado !important;
   }
 }
-
 
 @import "../node_modules/bootstrap/scss/bootstrap";
