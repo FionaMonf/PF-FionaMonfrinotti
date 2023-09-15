@@ -55,13 +55,6 @@ h1 {
   align-self: center;
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .latas {
-    width: 50%;
-  }
-}
-
 /*quienes somos*/
 .sobreNosotros {
   font-size: 26px;
@@ -105,6 +98,7 @@ h1 {
   .sobreNosotros {
     font-size: 1rem;
   }
+  
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -120,6 +114,7 @@ h1 {
     height: 20rem;
     width: 20rem;
   }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

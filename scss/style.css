@@ -5,7 +5,7 @@ body .mapa {
 body .mapa a img {
   width: 12rem;
   height: 7rem;
-  transition: width 1s;
+  transition: width 0.5s;
 }
 body .mapa a img:hover {
   width: 15rem;
