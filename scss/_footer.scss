@@ -1,0 +1,29 @@
+body {
+  footer {
+    background-color: #b9beea;
+    margin-top: 200px;
+    height: 35%;
+
+    .footer {
+      display: grid;
+      grid-gap: 25px;
+    }
+
+    .footer1 {
+      text-align: center;
+      margin-top: 35px;
+      img {
+        height: 10vh;
+        width: 5vw;
+      }
+    }
+
+    .email {
+      text-align: center;
+    }
+
+    .derechos {
+      text-align: center;
+    }
+  }
+}

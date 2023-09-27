@@ -53,6 +53,7 @@ h1 {
 
 .latas {
   align-self: center;
+  margin-top: 30px;
 }
 
 /*quienes somos*/
@@ -98,7 +99,10 @@ h1 {
   .sobreNosotros {
     font-size: 1rem;
   }
-  
+  .footer1 img {
+    height: 90px !important;
+    width: 100px !important;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -115,6 +119,10 @@ h1 {
     width: 20rem;
   }
 
+  .footer1 img {
+    height: 10rem !important;
+    width: 10rem !important;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

@@ -12,6 +12,30 @@ body .mapa a img:hover {
   height: 9rem;
 }
 
+body footer {
+  background-color: #b9beea;
+  margin-top: 200px;
+  height: 35%;
+}
+body footer .footer {
+  display: grid;
+  grid-gap: 25px;
+}
+body footer .footer1 {
+  text-align: center;
+  margin-top: 35px;
+}
+body footer .footer1 img {
+  height: 10vh;
+  width: 5vw;
+}
+body footer .email {
+  text-align: center;
+}
+body footer .derechos {
+  text-align: center;
+}
+
 header a:hover {
   color: #c6538c !important;
 }
