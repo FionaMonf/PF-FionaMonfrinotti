@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url(scss/_footerr.scss);
 body .mapa {
   text-align: center;
 }
@@ -11,6 +10,64 @@ body .mapa a img {
 body .mapa a img:hover {
   width: 15rem;
   height: 9rem;
+}
+
+body footer {
+  background-color: #b9beea;
+  margin-top: 200px;
+  height: 35%;
+}
+body footer .footer {
+  display: grid;
+  grid-gap: 25px;
+}
+body footer .footer1 {
+  text-align: center;
+  margin-top: 35px;
+}
+body footer .footer1 img {
+  height: 10vh;
+  width: 5vw;
+}
+body footer .email {
+  text-align: center;
+}
+body footer .email a:hover {
+  color: #c6538c;
+}
+body footer .derechos {
+  text-align: center;
+}
+body footer .redes {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: flex-start;
+  margin-left: 100px;
+  gap: 30px;
+}
+body footer .face {
+  background-color: #444d9d;
+  text-decoration: none;
+  color: azure;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+body footer .ig {
+  background-color: #444d9d;
+  text-decoration: none;
+  color: azure;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+body footer .tw {
+  background-color: #444d9d;
+  text-decoration: none;
+  color: azure;
+  width: 20px;
+  height: 20px;
+  text-align: center;
 }
 
 header a:hover {
