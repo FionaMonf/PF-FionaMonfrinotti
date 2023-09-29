@@ -39,6 +39,8 @@ body footer .derechos {
   text-align: center;
 }
 body footer .redes {
+  justify-content: center;
+  align-items: center;
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: flex-start;
