@@ -20,6 +20,10 @@ body {
 
     .email {
       text-align: center;
+
+      a:hover {
+        color: $destacado;
+      }
     }
 
     .derechos {
