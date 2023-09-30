@@ -2,7 +2,7 @@ body {
   footer {
     background-color: #b9beea;
     margin-top: 200px;
-    height: 35%;
+    height: 40%;
 
     .footer {
       display: grid;
@@ -31,14 +31,11 @@ body {
     }
 
     .redes {
+      display: grid;
       justify-content: center;
       align-items: center;
-      display: grid;
       grid-template-columns: auto auto auto;
-      justify-content: flex-start;
-      margin-left: 100px;
       gap: 30px;
-      
     }
 
     .face {
@@ -48,7 +45,6 @@ body {
       width: 20px;
       height: 20px;
       text-align: center;
-      
     }
 
     .ig {

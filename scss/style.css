@@ -15,7 +15,7 @@ body .mapa a img:hover {
 body footer {
   background-color: #b9beea;
   margin-top: 200px;
-  height: 35%;
+  height: 40%;
 }
 body footer .footer {
   display: grid;
@@ -39,12 +39,10 @@ body footer .derechos {
   text-align: center;
 }
 body footer .redes {
+  display: grid;
   justify-content: center;
   align-items: center;
-  display: grid;
   grid-template-columns: auto auto auto;
-  justify-content: flex-start;
-  margin-left: 100px;
   gap: 30px;
 }
 body footer .face {
